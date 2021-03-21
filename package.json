@@ -3,7 +3,7 @@
     "start": "snowpack dev",
     "build": "snowpack build",
     "test": "echo \"This template does not include a test runner by default.\" && exit 1",
-    "lint": "eslint ./src/**/*.ts"
+    "lint": "eslint ./src/**/*.{ts,tsx}"
   },
   "devDependencies": {
     "@snowpack/plugin-postcss": "^1.1.0",
