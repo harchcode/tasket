@@ -38,7 +38,13 @@ const Register: React.FC = () => {
         type="password"
         placeholder="Confirm Password"
         className="w-full px-4 py-2 border-2 border-gray-300 mt-2 rounded"
-      />{" "}
+      />
+
+      <div className="mt-2 ml-2 text-left text-sm flex flex-wrap">
+        <Link to="/login" className="text-blue-500 block text-sm md:hidden">
+          Already have an account?
+        </Link>
+      </div>
     </LoginLayout>
   );
 };

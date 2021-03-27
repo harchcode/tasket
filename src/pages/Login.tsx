@@ -30,10 +30,17 @@ const Login: React.FC = () => {
         className="w-full px-4 py-2 border-2 border-gray-300 mt-2 rounded"
       />
 
-      <div className="mt-2 ml-2 text-left text-sm">
-        <a href="https://google.com" className="text-blue-500">
+      <div className="mt-2 ml-2 text-left text-sm flex flex-wrap">
+        <a
+          href="https://google.com"
+          className="text-blue-500 flex-auto mr-8 block text-sm"
+        >
           Forgot password?
         </a>
+
+        <Link to="/register" className="text-blue-500 block text-sm md:hidden">
+          Don't have an account?
+        </Link>
       </div>
     </LoginLayout>
   );
