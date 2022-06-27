@@ -1,7 +1,8 @@
 import React from "react";
+import AppLayout from "../components/AppLayout";
 
 const Home: React.FC = () => {
-  return <React.Fragment>Home</React.Fragment>;
+  return <AppLayout>Home</AppLayout>;
 };
 
 export default Home;

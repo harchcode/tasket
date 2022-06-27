@@ -22,7 +22,7 @@ const LoginLayout: React.FC<Props> = ({
           </div>
           <div className="text-center mt-4 text-white px-4">{leftContent}</div>
         </div>
-        <div className="bg-opacity-80 md:bg-opacity-100 w-full h-full md:w-80 md:h-120 bg-white rounded-r flex items-center">
+        <div className="w-full h-full md:w-80 md:h-120 bg-white rounded-r flex items-center">
           <div className="w-full h-full px-8 text-center text-gray-600 flex flex-col justify-center md:justify-between">
             <div className="mt-8">
               <div className="text-5xl tracking-widest text-gray-500">
